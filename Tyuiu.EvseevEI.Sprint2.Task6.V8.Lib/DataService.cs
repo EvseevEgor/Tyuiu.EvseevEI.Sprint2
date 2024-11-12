@@ -3,7 +3,7 @@ namespace Tyuiu.EvseevEI.Sprint2.Task6.V8.Lib
 {
     public class DataService : ISprint2Task6V8
     {
-        public string FindDateOfPreviousDay(int m, int n)
+        public string FindDateOfPreviousDay(int m, int n, string? dateOfPreviousDay)
         {
             if (m < 1 || m > 12 || n < 1 || n > DaysInMonth(m))
             {
@@ -16,7 +16,7 @@ namespace Tyuiu.EvseevEI.Sprint2.Task6.V8.Lib
             // Вычисляем предыдущую дату
             DateTime previousDate = currentDate.AddDays(-1);
 
-            string DateOfPreviousDay = null;
+            string? DateOfPreviousDay = null;
             return DateOfPreviousDay;
         }
 
@@ -44,6 +44,10 @@ namespace Tyuiu.EvseevEI.Sprint2.Task6.V8.Lib
             }
         }
 
+        public string FindDateOfPreviousDay(int m, int n)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 
