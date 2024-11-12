@@ -6,13 +6,13 @@ namespace Tyuiu.EvseevEI.Sprint2.Task5.V14
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.Title = "Спринт #2 | Выполнил: Милюков Л. О. | ИИПб 24-2";
+            Console.Title = "Спринт #2 | Выполнил: Евсеев Е.И. | ИИПб 24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                                ");
             Console.WriteLine("* Тема: Организация ввода\\вывода в консольных приложениях                 ");
             Console.WriteLine("* Задание #5                                                               ");
             Console.WriteLine("* Вариант #14                                                              ");
-            Console.WriteLine("* Выполнил: Милюков Леонид Олегович | ИИПб 24-2                            ");
+            Console.WriteLine("* Выполнил:  Евсеев Егор Игоревич | ИИПб 24-2                            ");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                 ");
             Console.WriteLine("* Написать программу, которая использует оператор switch вычисляет         ");
@@ -25,9 +25,9 @@ namespace Tyuiu.EvseevEI.Sprint2.Task5.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         ");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Введите значние х:                                                       ");
+            Console.WriteLine("* Введите значение х:                                                       ");
             int x = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("* Введите значние y:                                                       ");
+            Console.WriteLine("* Введите значение y:                                                       ");
             int y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("*                                                                          ");
             Console.WriteLine("***************************************************************************");
