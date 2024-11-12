@@ -7,7 +7,7 @@ namespace Tyuiu.EvseevEI.Sprint2.Task6.V8.Lib
         {
             if (m < 1 || m > 12 || n < 1 || n > DaysInMonth(m))
             {
-                throw new ArgumentException("Некорректные значения месяца или дня.");
+                throw new ArgumentException("Некорректные значения  месяца или дня.");
             }
 
             // Создаем текущую дату
