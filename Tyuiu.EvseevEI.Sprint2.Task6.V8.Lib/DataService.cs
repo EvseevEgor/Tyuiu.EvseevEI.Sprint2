@@ -3,6 +3,7 @@ namespace Tyuiu.EvseevEI.Sprint2.Task6.V8.Lib
 {
     public class DataService : ISprint2Task6V8
     {
+        DataService ds = new();
         public string FindDateOfPreviousDay(int m, int n, string? dateOfPreviousDay)
         {
             if (m < 1 || m > 12 || n < 1 || n > DaysInMonth(m))
